@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Reprise BDE" company="" webLink="http://" view-date="2023-02-01" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
+    <description>
+        <![CDATA[Plannification des taches à faire pour le prochain groupe qui reprendra le projet pour le finaliser.]]>
+    </description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="200" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#00cc00]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="SumUp Air" color="#8cb6ce" meeting="false" start="2023-02-01" duration="2" complete="0" thirdDate="2023-01-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[8 heures
+
+Prise d'informations et compréhension de l'outil et choix de la solution utilisé pour l'inclure]]>
+            </notes>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="Mise en application de la solution" color="#8cb6ce" meeting="false" start="2023-02-03" duration="1" complete="0" thirdDate="2023-01-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[4 heures
+
+Connexion de l'outil SumUp Air avec le site + tests fonctionnelles]]>
+            </notes>
+        </task>
+        <task id="11" name="Ajustements détails" color="#8cb6ce" meeting="false" start="2023-02-03" duration="1" complete="0" thirdDate="2023-01-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[4 heures
+
+tels que :
+-alignement des prix avec ceux du BDE
+-ajuster l'inventaire par rapport au réel stock du BDE
+-possibilité de modifier l'argent en caisse manuellement par l'admin]]>
+            </notes>
+        </task>
+        <task id="0" name="création d'une page de fidélité pour le client" color="#8cb6ce" meeting="false" start="2023-02-06" duration="1" complete="0" thirdDate="2023-01-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[3 heures]]>
+            </notes>
+            <depend id="12" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="4" name="Modification page CatalogueModer2" color="#8cb6ce" meeting="false" start="2023-02-06" duration="1" complete="0" thirdDate="2023-01-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[3 heures
+
+-Ajout d'un nouvel élément afin de modifier les prix interactivement pour l'admin
+-Mise à jour des fichiers liés à cette page css et js ou php]]>
+            </notes>
+        </task>
+        <task id="12" name="Responsive design de la page fidélité" color="#8cb6ce" meeting="false" start="2023-02-08" duration="1" complete="0" thirdDate="2023-01-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[4 heures
+
+rendre la page réactive pour tous les écrans]]>
+            </notes>
+        </task>
+        <task id="6" name="Modification de la page Accueil" color="#8cb6ce" meeting="false" start="2023-02-08" duration="1" complete="0" thirdDate="2023-01-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[4 heures
+
+-Ajout d'un bouton permettant que lorsque l'administrateur click dessus affiche que le BDE est ouvert sur la page d'accueil des clients
+
+-Permettre à l'administrateur de modifier les horaires d'ouverture de la page sans devoir modifier le html]]>
+            </notes>
+        </task>
+        <task id="13" name="Reunion" color="#8cb6ce" meeting="false" start="2023-02-13" duration="1" complete="0" thirdDate="2023-01-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[3 heures
+
+-Mise au point de l'état d'avancement du projet
+-Briève présentation des solutions et livrables de chaque tâche]]>
+            </notes>
+        </task>
+        <task id="15" name="Gestion des modérateurs" color="#8cb6ce" meeting="false" start="2023-02-15" duration="1" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[4 heures
+
+-Création d'une page gestionAdmin pour que l'admin puisse gérer ses modérateurs (créer ou supprimer des modérateurs)
+-Faire les fonctions nécessaire en php ]]>
+            </notes>
+            <depend id="17" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="16" name="Description article" color="#8cb6ce" meeting="false" start="2023-02-15" duration="1" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[4 heures
+
+Permettre au client d'accéder à la description de l'article lors qu'il clique dessus
+(Html + php)]]>
+            </notes>
+        </task>
+        <task id="17" name="Responsive Design gestionModo" color="#8cb6ce" meeting="false" start="2023-02-20" duration="1" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[5 heures
+]]>
+            </notes>
+        </task>
+        <task id="21" name="Barre de recherche" color="#8cb6ce" meeting="false" start="2023-02-20" duration="1" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[5 heures
+
+-Ajout de la barre de recherche dans le catalogue
+-faire des expressions régulières en JS pour contrôler les valeurs saisies
+-Faire les fonctions Model (php) permettant d'afficher les produits chercher]]>
+            </notes>
+        </task>
+        <task id="18" name="Récupérer des données" color="#8cb6ce" meeting="false" start="2023-03-08" duration="5" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[4 heures
+
+Demander si possibilité de récupérer certaines données sur les étudiants tel que le numéro étudiant et les traiter avec autorisation]]>
+            </notes>
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" name="Modification Catalogue" color="#8cb6ce" meeting="false" start="2023-03-08" duration="5" complete="0" thirdDate="2023-02-01" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[4 heures
+
+-Rendre fonctionnelle les vignettes montrant la disponibilité du produit (rouge, orange, vert) et réadapté le CSS/RP
+-Faire en sorte que lorqu'un modérateur vendent des produits ça met bien à jour l'inventaire]]>
+            </notes>
+        </task>
+        <task id="19" name="Exploiter les données pour sécuriser" color="#8cb6ce" meeting="false" start="2023-03-15" duration="1" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[6 heures
+
+Faire des fonctions afin de vérifier si les données fournit au formulaire lors de l'inscription existe bien et sont cohérente]]>
+            </notes>
+        </task>
+        <task id="20" name="Résolution des bugs d'affichage" color="#8cb6ce" meeting="false" start="2023-03-15" duration="3" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[6 heures
+
+Régler les soucis de toutes les pages ayant eu des problèmes au niveau du responsives design]]>
+            </notes>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="chef_de_projet" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="personne2" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="personne3" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="personne4" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="personne5" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="true" load="1.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:1" responsible="true" load="1.0"/>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="1.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="Default:1" responsible="false" load="1.0"/>
+        <allocation task-id="15" resource-id="0" function="Default:1" responsible="true" load="1.0"/>
+        <allocation task-id="17" resource-id="0" function="Default:1" responsible="true" load="1.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:1" responsible="true" load="1.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:1" responsible="true" load="1.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="15" resource-id="1" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="17" resource-id="1" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="18" resource-id="1" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="1" resource-id="2" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:0" responsible="true" load="1.0"/>
+        <allocation task-id="6" resource-id="2" function="Default:0" responsible="true" load="1.0"/>
+        <allocation task-id="13" resource-id="2" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="15" resource-id="2" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="21" resource-id="2" function="Default:0" responsible="true" load="1.0"/>
+        <allocation task-id="19" resource-id="2" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="11" resource-id="3" function="Default:0" responsible="true" load="1.0"/>
+        <allocation task-id="4" resource-id="3" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="6" resource-id="3" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="13" resource-id="3" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="16" resource-id="3" function="Default:0" responsible="true" load="1.0"/>
+        <allocation task-id="21" resource-id="3" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="20" resource-id="3" function="Default:0" responsible="true" load="1.0"/>
+        <allocation task-id="22" resource-id="3" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="1" resource-id="4" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="11" resource-id="4" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="4" resource-id="4" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="6" resource-id="4" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="13" resource-id="4" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="16" resource-id="4" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="21" resource-id="4" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="20" resource-id="4" function="Default:0" responsible="false" load="1.0"/>
+        <allocation task-id="22" resource-id="4" function="Default:0" responsible="false" load="1.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
